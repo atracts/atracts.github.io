@@ -1,1 +1,134 @@
-test
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ATRACT: Home</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</head>
+  <body>
+    <!--navbar-->
+    <nav class="navbar">
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a><svg xmlns="http://www.w3.org/2000/svg" height="34px" viewBox="0 -960 960 960" width="34px" fill="#000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="publications.html">Publication</a></li>
+            <li><a href="news.html">News|Media Coverage</a></li>
+            <li><a href="reserachers.html">Researchers</a></li>
+        </ul>
+        <ul class="mainbar">
+            <li><a href="index.html"><img src="assets/ATRACT-Logo-final.jpg" alt=""></a></li>
+            <li class="smallScreeHide"><a href="index.html">Home</a></li>
+            <li class="smallScreeHide"><a href="publications.html">Publication</a></li>
+            <li class="smallScreeHide"><a href="news.html">News|Media Coverage</a></li>
+            <li class="smallScreeHide"><a href="reserachers.html">Researchers</a></li>
+            <li onclick=displaySidebar()><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col intro" align="center">
+                  <h1>ATRACT</h1>
+            </div>
+            <hr>
+        </div>
+        <div class="row margin-15">
+            <div class="col-6">
+                  <img style="height:auto; width:100%" src="assets/ATRACT-Logo-final.jpg" alt="">
+            </div>
+            <div class="col">
+                <p>The Vietnam War introduced the "Golden Hour," where rapid air evacuations increased soldier survival, a standard followed by UK/US/NATO forces since. However, current conflicts (e.g., Ukraine) reveal challenges in helicopter-based casualty evacuation (CASEVAC) due to new, highly effective, low-cost missiles targeting air operations, endangering frontline medics who often operate under life-threatening conditions to prioritise and treat multiple casualties.</p>
+                <p>The proposed ATRACT system aims to address this urgent need by developing a trustworthy, drone-based, autonomous system to assist medics within the "platinum ten minutes" following trauma. ATRACT will use advanced drone and AI technologies to locate and identify casualties, assess injury severity through innovative multimodal sensing, and provide continuous monitoring and real-time information to enroute medical teams. By enhancing crew resource management and minimising time spent on the ground, ATRACT aims to increase survival rates and reduce the exposure of medics to hostile attacks. </p>
+            </div>
+        </div>
+        <div class="row margin-15">
+            <div class="col">
+                <p>While AI and robotic systems (RAS) are integral across many fields, trustworthiness and transparency are often barriers to their effective deployment.  ATRACT will address these challenges by integrating ethical, legal, and military medical standards (MOD), including the WHO Surgical Checklist, ensuring the system is technically robust, ethically compliant, and provides interpretable, bias-free data to support informed decision-making. With expert oversight embedded in its development, ATRACT has the potential to transform casualty care in contested environments, contributing to significant advances in frontline healthcare delivery and yielding important health, social, and economic benefits.</p>
+            </div>
+        </div>
+        <hr>
+    </div>
+  
+    <div class="container">
+        <div class="row">
+            <div class="col intro" align="center">
+                <h2>Collaborators</h2>
+            </div>
+        </div>
+        <div class="row margin-15">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/Prof Ardhendu Behera.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title"><a href="https://computing.edgehill.ac.uk/~abehera/">Prof Ardhendu Behera (PI)</a></h5>
+                      <h6> Professor of Computer Vision and AI</a></h6>
+                      <p class="card-text">Edge Hill University</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/Dr Varuna De-Silva.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title"><a href="https://computing.edgehill.ac.uk/~abehera/">Dr Varuna De-Silva (Co-I)</a></h5>
+                      <h6>Reader in Machine Intelligence</a></h6>
+                      <p class="card-text">Loughborough University London</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/Prof Peter Lee.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title"><a href="">Prof Peter Lee (Co-I)</a></h5>
+                      <h6>Professor of Applied Ethics</a></h6>
+                      <p class="card-text">University of Portsmouth</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/Dr Khizer Saeed.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title"><a href="">Dr Khizer Saeed (Co-I)</a></h5>
+                      <h6>Principal Lecturer in Mechanical engineering</a></h6>
+                      <p class="card-text">University of Brighton</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+
+    <div class="container">
+        <div class="row ins-logo margin-15">
+            <div class="col">
+                <img src="assets/EHU-Logo.png" alt="">
+            </div>
+            <div class="col">
+                <img src="assets/University of Brighton.png" alt="">
+            </div>
+            <div class="col">
+                <img src="assets/University of Portsmouth.png" alt="">
+            </div>
+            <div class="col">
+                <img src="assets/Loughborough University London.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container ins-logo margin-15" align="center">
+        <div class="row">
+            <div class="col">
+                <img src="assets/UKRI-EPSRC-Logo.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
