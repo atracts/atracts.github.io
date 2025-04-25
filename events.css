@@ -1,0 +1,20 @@
+p {
+    text-align: left;
+    padding-left: 125px;
+    white-space: pre-line;
+    line-height: 22px;
+
+}
+
+.body {
+    text-align: left;
+    padding-left: 125px;
+    white-space: pre-line;
+    padding-right: 125px;
+}
+
+.activities {
+    white-space: pre-line;
+    line-height: 20px;
+    padding-bottom: 45px;
+}
