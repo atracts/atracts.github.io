@@ -66,6 +66,9 @@ a{
     text-decoration: none;
 }
 
+.col{
+    padding-top: 25px;
+}
 .mainbar li:last-child {
     height: 100%;
     padding: 0 30px;
